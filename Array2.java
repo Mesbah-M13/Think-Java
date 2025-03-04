@@ -1,6 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
+// READ and PRINT values of an ARRAY
+
 public class Array2 {
     public static void main(String[] args) {
         // input for array size
@@ -12,7 +14,7 @@ public class Array2 {
         // input for array elements
         int[] newArr = new int[size];
 
-        System.out.println("Your entered input:");
+        System. out.println("Your entered input:");
         for (int i = 0; i < size; i++) {
             newArr[i] = in.nextInt();
         }
